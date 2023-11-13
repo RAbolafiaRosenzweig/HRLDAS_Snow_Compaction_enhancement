@@ -69,7 +69,7 @@ contains
 ! start snow compaction
     SnowBurden = 0.0
 !Added by Ronnie (SnowCompactBurdenFac updated from Abolafia-Rosenzweig et al., 2023)
-    SnowCompactBurdenFac = -0.00074789  * TemperatureAirRefHeight + 0.22127489
+    SnowCompactBurdenFac = -0.00069503  * TemperatureAirRefHeight + 0.20606699
 !pressure-based lower constraints:
     IF (PressureAirRefHeight>=85000) THEN !high pressure bin
         SnowCompactBurdenFac = MAX(SnowCompactBurdenFac,0.017) !this lower bound should never be triggered
