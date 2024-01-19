@@ -42,7 +42,7 @@ contains
               SnoWatEqvMaxGlacier    => noahmp%water%param%SnoWatEqvMaxGlacier      ,& ! in,    Maximum SWE allowed at glaciers [mm]
 
               !Added by Ronnie Abolafia-Rosenzweig for snow compaction option:
-              OptSnowCompact          => noahmp%config%nmlist%OptSnowCompact       ,& ! in,  options for ground snow surface albedo
+              OptSnowCompact          => noahmp%config%nmlist%OptSnowCompact       ,& ! in,  options for ground snow compaction
 
               ThicknessSnowSoilLayer => noahmp%config%domain%ThicknessSnowSoilLayer ,& ! inout, thickness of snow/soil layers [m]
               DepthSnowSoilLayer     => noahmp%config%domain%DepthSnowSoilLayer     ,& ! inout, depth of snow/soil layer-bottom [m]
